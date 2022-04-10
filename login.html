@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script  src="js/login.js"></script>
+	<title>login</title>
+</head>
+<body>
+	<div id="formulaire">
+		<form action="../projet_stage/php/login.php" method="post" onsubmit="return erreur();">
+			<input required id="login" placeholder="login" type="texte" name="login">
+			<input required id="password" placeholder="password" type="password" name="password">
+			<input required id="mail" placeholder="mail" type="mail" name="mail">
+			<input required id="confirmmail" placeholder="confirmmail" type="confirmmail" name="confirmmail">
+			<button type="submit">Submit</button>
+		</form>
+
+	</div>
+</body>
+</html>
