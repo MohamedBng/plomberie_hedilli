@@ -1,0 +1,622 @@
+body{
+	font-size: 20px;
+}
+.updateForm{
+	
+	width: 70%;
+	margin: 0 auto;
+}
+.updateForm form{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+}
+.updateForm form input{
+	margin-top: 2%;
+
+}
+.actuAdmin{
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+
+}
+.actuAdmin .underlignText{
+margin-bottom: 5%;
+
+}
+.btnActuAdmin{
+display: flex;
+width: 80%;
+justify-content: space-around;
+margin: 0 auto;
+padding: 5%;
+}
+.btnActuAdmin a{
+width: 30%;
+}
+.formulaireActuAdmin{
+width: 100%;
+}
+.formulaireActuAdmin form{
+	display: flex;
+flex-direction: column;
+margin-top: 3%;
+padding: 2%;
+}
+.formulaireActuAdmin form input{
+
+margin-bottom: 2%;
+}
+.formulaireActuAdminEtActuAdmin{
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+}
+.allImgGalerieAdmin{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 80%;
+	margin: 0 auto;
+}
+.allImgGalerieAdmin button{
+	width: 20px;
+}
+.imgGalerieAdmin{
+	width: 50px;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+.formGalerieAdmin{
+	padding: 2%;
+	text-align: center;
+}
+.actus{
+	margin-top: 5%;
+}
+.actusnav{
+	margin-bottom: 5%;
+}
+#logoAndTitle{
+	background-color: #0F4C75;
+	padding: 4%;
+	margin-bottom: 0%;
+}
+#logo{
+	width: 40%;
+	margin: 0 auto;
+}
+#logo img{
+	width: 100%;
+}
+#imgHeader{
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../image/vecteezy_sanitary-technician-lying-sink-high-quality-beautiful-photo-concept_2996157phone.jpg");
+}
+.boutonHeader{
+	margin:0 auto;
+width: 50%;
+}
+.boutonHeader button{
+	padding: 8%;
+		margin-top: 120%;
+	background-color:#0F4C75;
+	border: none; 
+	width: 100%;
+	color: white;
+	border-radius: 25px;
+}
+.boutonHeader button:hover{
+
+	background-color:#3282B8;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+
+#swipe{
+	margin-top: 30%;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+#swipe i{
+	font-size: 150%;
+}
+
+#acceuil{
+	text-align: center;
+	padding: 2%;
+}
+h1{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+h1 span{
+	color: #0F4C75;
+}
+h2{
+	text-align: center;
+	color: #0F4C75;
+}
+p{
+	text-align: center;
+}
+#acceuil p{
+	margin-top: 10%;
+	margin-bottom: 15%;
+}
+
+#bgNosAtout{
+	width: 100%;
+	height: 600px;
+	padding-top: 50px;
+	margin-top: 10%;
+	background-size: cover;
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-image: url("../image/two-workers-in-uniform-workers-with-tools-working-dayphone.jpg");
+}
+#nosAtout{
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.8);
+	height: 500px;
+}
+.title{
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+
+}
+.underlignText{
+	width: 25%;
+	margin: 0 auto;
+	border-bottom: 2px solid #0F4C75;
+}
+.underlignTextRea{
+	width: 25%;
+	margin: 0 auto;
+	border-bottom: 2px solid #0F4C75;
+}
+#nosAtout ul{
+	padding: 10%;
+}
+#nosAtout li{
+	margin-top: 5%;
+}
+.bouton{
+	margin:0 auto;
+width: 70%;
+padding: 1%;
+}
+.bouton button{
+	padding: 3%;
+	background-color:#0F4C75;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+	color: white;
+}
+.bouton button:hover{
+
+	background-color:#3282B8;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+
+#nosRealisations{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.carousel{
+	margin-top: 10%;
+}
+#zonedintervention{
+	margin-top: 10%;
+}
+.texteIntervention{
+ margin-top: 10%;
+ margin-bottom: 10%;
+ padding: 2%;
+ text-align: center;
+}
+#num{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 120%;
+	color:#3282B8; 
+}
+#AllTheForm{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+
+	width: 100%;
+	justify-content: space-around;
+}
+#mailPrenomNom{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+#mailPrenomNom input{
+width: 80%;
+margin: 0 auto;
+margin-bottom: 5%;
+height: 50px;
+border-radius: 25px;
+padding: 1%;
+
+}
+.contactTitre{
+	text-align: center;
+}
+#mailPrenomNom input:focus {
+border-radius: 25px;
+outline: none;
+}
+textarea{
+	width: 100%;
+	padding: 1%;
+
+	height: 300px;
+	border-radius: 25px;
+}
+#textarea{
+	margin: 0 auto;
+width: 80%;
+}
+textarea:focus{
+	outline: none;
+
+}
+#boutonform{
+	margin:0 auto;
+width: 70%;
+padding: 1%;
+}
+form button{
+	padding: 3%;
+	background-color:#0F4C75;
+	border: none; 
+	color: white;
+	width: 100%;
+	border-radius: 25px;
+}
+form button:hover{
+	background-color:#3282B8;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+#footer{
+	background-color: #3282B8;
+	margin-top: 15%;
+	padding-top: 10%;
+}
+#footer p{
+	text-align: center;
+}
+.underlignFooter{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 2px solid white;
+}
+#footer img{
+	width: 100%;
+}
+#logoFooter{
+	width: 80%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0 auto;
+}
+#domaines{
+	margin-top: 10%;
+}
+#domaines ul{
+	background-color:#3282B8;
+	color: white;
+	padding-top: 5%; 
+	padding-bottom: 5%; 
+	margin-top: 10%;
+}
+#imgPlomberie{
+	width: 100%;
+	background-image: url("../image/unrecognizable-male-plumber-standing-near-kitchen-sink-showing-thumb-upphone.jpg");
+	background-size: cover;
+	background-attachment: initial;
+	height: 400px;
+	margin-bottom: 5%;
+}
+.pageRealisationJs{
+		z-index: -100;
+				
+}
+#pageRealisation{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#pageRealisation .containeurImgGallerie{
+	width: 32%;
+	height: 100px;
+	margin-top: 1%;
+	     display:block;
+     overflow:hidden;
+     border:1px solid #000;
+}
+.containeurImgGallerie img{
+	width: 100%;
+	height: 100px;
+}
+
+
+#bgGrandeImageRealisation {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	display: none;
+	background-color:rgba(25,25,25,0.8);
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 30%;
+}
+#closeBtn{
+	margin-left: 10%;
+	margin-top: 5%;
+	color: white;
+	font-size: 150%;
+}
+
+#grandeImageRealisation{
+	width: 80%;
+	margin-top: 0%;
+	margin: 0 auto;
+}
+#imageRealisation{
+	width: 80%;
+	margin: 0 auto;
+}
+#imageRealisation img{
+	width: 100%;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12{
+	color: white;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 799px){
+  
+ body{
+	font-size: 15px;
+}
+.actuAdmin{
+display: flex;
+flex-direction: column;
+width: 40%;
+text-align: center;
+
+}
+
+.formulaireActuAdmin{
+width: 50%;
+}
+.formulaireActuAdminEtActuAdmin{
+	flex-direction: initial;
+	justify-content: space-around;
+}
+#logoAndTitle{
+	padding: 1%;
+}
+#logo{
+	width: 10%;
+}
+  
+#imgHeader{
+	background-image: url("../image/acceuil.jpg");
+}
+.boutonHeader{
+	margin:0 auto;
+    width: 20%;
+}
+.boutonHeader button{
+	padding: 4%;
+	margin-top: 100%;
+	width: 100%;
+	border-radius: 25px;
+}
+#swipe{
+	margin-top: 8%;
+}
+#acceuil{
+	width: 50%;
+	margin:0 auto;
+}
+h1{
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+#acceuil p{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+nav{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.cardBootstrap{
+	padding-top: 5%;
+	margin: 0 auto;
+	width:25%;
+}
+
+.cardBootstrapTwo{
+	padding-top: 5%;
+	margin: 0 auto;
+	width:40%;
+}
+
+#bgNosAtout{
+	height: 400px;
+	background-attachment: fixed;
+	background-image: url("../image/two-workers-in-uniform-workers-with-tools-working-day.jpg");
+}
+#nosAtout{
+	width: 30%;
+	height: 300px;
+}
+.title{
+	font-size: 200%;
+}
+.underlignText{
+	width: 80px;
+}
+.carousel{
+	width: 50%;
+	margin: 0 auto;
+}
+.underlignTextrea{
+	margin-bottom: 50%;
+}
+
+#nosRealisations{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.bouton{
+   width: 40%;
+}
+
+#zonedintervention{
+		width: 50%;
+	margin:0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.texteIntervention{
+ margin-top: 5%;
+ margin-bottom: 5%;
+}
+#num{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 200%;
+}
+#AllTheForm{
+	flex-direction:row;
+    margin: 0 auto;
+	width: 80%;
+}
+#mailPrenomNom{
+	width: 50%;
+}
+
+#textarea{
+width: 50%;
+}
+#boutonform{
+width: 20%;
+}
+
+#footer{
+	margin-top: 10%;
+	padding-top: 2%;
+}
+.underlignFooter{
+	width: 40%;
+}
+#logoFooter{
+	width: 30%;
+}
+#pagePlomberie{
+		width: 50%;
+	margin:0 auto;
+	margin-bottom: 5%;
+}
+
+#domaines{
+	width: 50%;
+	margin:0 auto;
+}
+#imgPlomberie{
+	background-attachment: fixed;
+	background-image: url("../image/unrecognizable-male-plumber-standing-near-kitchen-sink-showing-thumb-up.jpg");
+}
+
+
+#pageRealisation{
+	width: 70%;
+	margin: 0 auto;
+}
+#bgGrandeImageRealisation {
+	height: 650px;
+	margin-top: 5%;
+}
+#closeBtn{
+	margin-left: 75%;
+	margin-top: 2%;
+	font-size: 200%;
+}
+
+#imageRealisation{
+	width: 40%;
+}
+
+#containerPageRealisation{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#pageRealisationTxt{
+			width: 50%;
+	margin:0 auto;
+	margin-bottom: 5%;
+}
+#pageRealisation .containeurImgGallerie{
+	width: 200px;
+	height: 200px;
+}
+.containeurImgGallerie img{
+	width: 100%;
+	height: 200px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#pageRealisation img:hover{
+   -ms-transform: scale(1.2); /* IE 9 */
+   -webkit-transform: scale(1.2); /* Safari 3-8 */
+   transform:scale(1.2);
+}
+
+}

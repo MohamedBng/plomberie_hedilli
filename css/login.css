@@ -1,0 +1,36 @@
+#formulaire{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+.errorLogin{
+	text-align: center;
+	background-color: red;
+	width: 30%;
+	margin: 0 auto;
+	color: white;
+	border-radius: 10px;
+}
+.errorLogin p{
+	padding: 5%;
+	width: 100%;
+	border-radius: 10px;
+	background-color: red;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+input{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 5%;
+	height: 50px;
+}
+
+button{
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 5%;
+	height: 50px;
+}
